@@ -43,6 +43,7 @@ body{
 .modal-content{
     max-width: 320px;
     margin: 100px auto;
+    border-radius: 10px;
 }
 .modal-datepicker{
     background-color: white;
@@ -56,6 +57,7 @@ body{
 .datepicker-calendar{
     padding: 20px;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 .datepicker-date{
     display: flex;
