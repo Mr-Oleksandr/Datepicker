@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+      <div class="datepick-content">
+          <div>
+            <h1 class="datepicker-title">Date Picker</h1>
+          </div>
+          <div>
+            <button class="btn-datepicker"><i class="fa fa-calendar"></i>Open Date Picker</button>
+          </div>
+      </div>
+    </div>
+    <!-- datepick -->
+    <div class="modal">
+      <div class="modal-content">
+        <div class="modal-datepicker">
+          <div class="datepicker-calendar">
+            <div class="datepicker-date">
+              <div class="datepicker-month">April</div>
+              <div class="datepicker-year">
+                <button class="btn-datepicker-year-left"></button>
+                <span class="datepicker-today-year">2021</span>
+                <button class="btn-datepicker-year-right"></button>
+               </div>
+            </div>
+            <div class="datepicker-days-week">
+              <div style="cursor: pointer;" class="datepicker-week">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+              </div>
+              <div class="datepicker-day">
+                <div class="day"></div>
+              </div>
+            </div>
+           <div class="dark-mode"><span class="mode">Light Mode</span>
+             <label class="switch">
+            <input type="checkbox" class="checkbox">
+            <span class="slider round"></span>
+          </label></div>
+          </div>
+       </div>
+      </div>
+    </div>
+    <!-- datepicker -->
+    <script src="script.js"></script>
+</body>
+</html>
